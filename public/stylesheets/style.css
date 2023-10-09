@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+
+* {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+h5 {
+    font-weight: 200;
+    font-size: 17px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 3px;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 20px;
+    opacity: 0.90;
+}
+
+input {
+    --bs-border-width: 2px;
+    --bs-border-color: #eee;
+    --bs-border-radius: 10px;
+}
+
+.btn-link-button:focus {
+    outline: none;
+    border: none;
+}
+
+.btn-link-button:active {
+    outline: none;
+    border: none;
+}
+
+.btn-link-button {
+    outline: none;
+    border: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.linkable {
+    transition: all 0.2s;
+    animation-timing-function: cubic-bezier(0.57, 0.4, 0.55, 1.17);
+    scale: 1;
+}
+
+.linkable:hover {
+    cursor: pointer;
+    scale: 1.02;
+}
+
+.linkable:active {
+    cursor: pointer;
+    scale: 1.01;
+}
+
+.linkable:focus {
+    outline: none;
+}
